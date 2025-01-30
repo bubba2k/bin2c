@@ -4,7 +4,7 @@ header_name=$4
 
 if (( $# != 4 ))
 then
-	printf "Usage: $0 <infile> <outfile> <array name> <header name>"
+	printf "Usage: $0 <infile> <outfile> <array name> <header name>\n"
 	exit 1
 fi
 
